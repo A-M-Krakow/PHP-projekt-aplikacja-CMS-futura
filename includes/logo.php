@@ -1,0 +1,1 @@
+﻿<div id="logo" style="padding-top: 5px;"><a href="index.php"> <img src="obrazki/logo.png"></a></div>

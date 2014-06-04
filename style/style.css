@@ -1,0 +1,158 @@
+* { margin: 0;
+    padding: 0; }
+    
+div { overflow: hidden; }
+
+body
+{
+    font-family: arial;
+    font-size: 14px;
+    color: #000000;
+    background-color: white;
+    text-align: justify;
+   
+}
+
+#Strona { position: absolute;
+          left: 10%;
+          right: 10%;
+           background-color: #ffffcc;}
+
+
+#Tresc {
+        border-top: solid 1px silver;
+       
+
+  }
+#Lewa
+{
+    float: left;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    margin: 1%;
+
+    
+   
+}
+
+.menu {
+    background-color: white;
+    width: 98%;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin: 0px;
+    display: inline-block;
+
+    
+    
+    }
+
+
+
+#Prawa
+{
+    overflow: hidden;
+    width: 77%;
+    
+}
+
+
+#Srodek {
+    width: 100%;
+    text-align: center;
+}
+
+#Naglowek
+{
+   text-align: center;
+}
+
+#ObszarLogowania
+{
+    text-align: right;
+    font-size: 8pt;
+}
+
+a {
+    color: rgb(0,0,128) ;
+    text-decoration: none;
+}
+
+ul.kategorie  {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    width: 98%;
+    list-style: none;
+    
+}
+
+
+
+  ul.kategorie li a {
+  
+    color: #ffffcc; 
+    text-decoration: none;
+    background-color: orange;
+    display:block;
+    font-weight: bold;
+    padding: 7px;
+   
+    
+}
+  
+ul.kategorie li a:hover  {
+    color: red;
+    background-color: yellow;
+    padding-left: 10px;
+ 
+}
+
+
+        
+.podpis { border-bottom: dotted 1px silver;
+          font-size: 11px;
+          text-align: right; }
+          
+.tytul {  
+          padding-top: 5px;
+          width: 50%; 
+          text-align: left; 
+          font-weight: bold;
+          font-size: 16px;
+          }
+          
+.trescpostu {  padding: 20px;
+          background-color: rgb(229,229,229);
+         }
+          
+
+
+          
+.avatar { max-width: 150px;
+          max-height: 150px;}
+          
+.post, .uzytk, .edycja { width: 100%; 
+        border: solid 1px silver;
+        }
+
+td, th { border-top: solid 1px silver;
+            background-color: white;
+            padding-right: 10px;
+            }
+            
+.uzytk td, th { vertical-align: middle;
+                  text-align: center;}
+                
+.post td, th {  vertical-align:top;}
+
+.uwaga {  color: red;
+          font-weight: bold; }
+          
+#stopka { clear: both; 
+          border-top:  solid 1px silver;
+          text-align: right;}
+          
+#index { padding-bottom: 10px; }
